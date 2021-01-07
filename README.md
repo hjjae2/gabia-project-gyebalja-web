@@ -1,55 +1,77 @@
 # 계발자 프로젝트
 
-### 개요
-1. 교육 내역을 등록하고, 관리할 수 있는 웹 서비스
-2. 교육 내역에 대한 통계 데이터 제공
- - TOP3 카테고리 (어떤 카테고리가 많이 사용되었는지)
- - TOP3 태그 (어떤 태그가 많이 사용되었는지)
+## 개요
+1. 온라인/오프라인 교육 수강 내역을 등록하여, 관리할 수 있는 웹서비스입니다.
+2. 등록한 교육 내역에 대해서 통계 데이터를 제공합니다.
+ - TOP3 카테고리
+ - TOP3 태그
  - 월별 교육 시간, 연간 교육 시간
+3. 등록한 교육 내역을 공유 / 추천할 수 있는 게시판 기능을 제공합니다.
+4. 등록한 교육 내역에 대해 사용자의 월별 랭킹 기능을 제공합니다.
+
+
  
 <br>
 
-### Environment
+## 환경
 
-- **SpringBoot 2.2.4**
-  - Gradle 6
-  - JAVA 8
-- **Vue.js**
-  - Vuetify 1.4.3
-  - Node 6.13.4
-- **Mysql 5.7.29**
-  - InnoDB
-- **Jenkins 2.204.5**
+|API Server|Front Server|Database|CI/CD|
+|:--------:|:----------:|:------:|:---:|
+|Spring Boot 2.2.4 <br> Gradle 6 <br> Java 8|Vue.js <br> Vuetify 1.4.3|Mysql 5.7 (InnoDB)|Jenkins 2.204|
 
-<br>
+<br><br>
 
-### ERD
+## Architecture
 
+<p>
+ <img src="images/architecture.png" width="70%" height="70%">
+</p>
+
+<br><br>
+
+## ERD
+
+<p>
+ <img src="images/erd.png">
+</p>
 https://www.erdcloud.com/d/tFRNX4nap2Wv5kQFy
 
-<img src="images/erd.png">
+<br><br>
 
-### Entity diagram
+## Entity-Diagram
 
-<img src="images/entitydiagram.png">
+<p>
+ <img src="images/entitydiagram.png">
+</p>
 
-<br>
+<br><br>
 
-### Code review
+## Code review
 
-<img src="images/codereview1.png">
-<img src="images/codereview2.png">
+<p float="left">
+ <img src="images/codereview1.png">
+  
+ <img src="images/codereview2.png">
+</p>
 
-<br>
+<br><br>
 
-### Examples
+## Examples
 
-<img src="images/example1.png">
-<img src="images/example2.png">
-<img src="images/example3.png">
+<p float="left">
+ <img src="images/example1.png">
+  
+ <img src="images/example2.png">
+</p>
 
-<br>
+<p float="left">
+ <img src="images/example3.png">
+</p>
+
+<br><br>
 
 **Date**
 
 - 2020.01.06 ~ 2020.03.20 (12 weeks)
+
+<br>
